@@ -1,0 +1,160 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.        -->
+    </style>
+
+    <style name="AppScannerTheme" parent="@style/NarManiaTheme">
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="android:actionBarItemBackground">@drawable/selector_actionbar_item</item>
+        <item name="android:actionBarStyle">@style/action_bar_theme</item>
+        <item name="android:actionMenuTextColor">#fff</item>
+        <item name="android:homeAsUpIndicator">@drawable/icon_back_arrow_white</item>
+        <item name="ptrHeaderStyle">@style/Widget.Custom.PtrHeader</item>
+    </style>
+
+    <style name="AppScannerThemeWhiteProgress" parent="android:Theme.Holo.Light">
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="android:actionBarItemBackground">@drawable/selector_actionbar_item</item>
+        <item name="android:actionBarStyle">@style/action_bar_theme</item>
+        <item name="android:actionMenuTextColor">#fff</item>
+        <item name="android:homeAsUpIndicator">@drawable/icon_back_arrow_white</item>
+        <item name="ptrHeaderStyle">@style/Widget.Custom.PtrHeader</item>
+    </style>
+
+    <style name="action_bar_theme" parent="@android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:background">#00000000</item>
+        <item name="android:alpha">@string/trans_alpha</item>
+        <item name="android:titleTextStyle">@style/AppScannerTheme.ActionBar.TitleTextStyle</item>
+    </style>
+
+    <style name="AppScannerTheme.ActionBar.TitleTextStyle" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <style name="Theme" parent="android:Theme.Light">
+        <item name="android:background">@null</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="text_title">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/d_gray</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="text_option">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="layout_wrap">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="layout_fill">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+
+    <style name="layout_f_w">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="h_line">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">1.5dip</item>
+        <item name="android:background">@color/l_blue</item>
+    </style>
+
+    <style name="indicator_style">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">4dip</item>
+        <item name="android:background">@color/l_blue</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="TextViewNormal">
+        <item name="android:textColor">#33b5e5</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:shadowColor">#ffffff</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">2</item>
+        <item name="android:shadowRadius">3</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:paddingLeft">5dip</item>
+        <item name="android:paddingTop">5dip</item>
+    </style>
+
+    <style name="ShadowHorizontal">
+        <item name="android:background">@drawable/shadow_horizontal</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/shadow_horizontal</item>
+    </style>
+
+    <style name="ShadowHorizontalSmall">
+        <item name="android:background">@drawable/shadow_horizontal</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/shadow_horizontal_small</item>
+    </style>
+
+    <style name="ShadowHorizontalUpSmall">
+        <item name="android:background">@drawable/shadow_horizontal_up</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/shadow_horizontal_small</item>
+    </style>
+
+    <style name="Greenline">
+        <item name="android:background">@color/h_green</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/green_line_height</item>
+    </style>
+
+    <style name="Bluline">
+        <item name="android:background">@color/h_blue</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/margin_small</item>
+    </style>
+
+    <style name="Dialog" parent="@android:style/Theme.Holo.Light.Dialog">
+        <item name="android:alpha">@string/trans_alpha1</item>
+        <item name="android:textColor">@color/gray</item>
+    </style>
+
+    <style name="Widget.Custom.PtrHeaderWhite" parent="android:Widget">
+
+        <!-- The background of the header view -->
+        <item name="ptrHeaderBackground">@color/h_blue</item>
+        <!-- Color to tint the progress bar -->
+        <item name="ptrProgressBarColor">@color/white</item>
+    </style>
+
+    <style name="Widget.Custom.PtrHeader" parent="android:Widget">
+
+        <!-- The background of the header view -->
+        <item name="ptrHeaderBackground">@color/h_blue</item>
+        <!-- Color to tint the progress bar -->
+        <item name="ptrProgressBarColor">@color/d_blue</item>
+    </style>
+
+</resources>

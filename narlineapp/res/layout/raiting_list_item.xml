@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.newo.newoapp.narline"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:listSelector="@drawable/newothemekitkat_list_selector_holo_light"
+    android:paddingBottom="@dimen/margin_small"
+    android:paddingTop="@dimen/margin_small" >
+
+    <com.newo.newoapp.RoundedImageView
+        android:id="@+id/icon_raiting_user"
+        android:layout_width="@dimen/notification_list_image_height"
+        android:layout_height="@dimen/profile_list_user_image_dimension"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/margin_small"
+        android:layout_marginRight="@dimen/margin_small"
+        android:src="@drawable/icon_pofile_image"
+        app:corner_radius="@dimen/notification_list_image_corner_radius" />
+
+    <TextView
+        android:id="@+id/tv_raiting_name"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@id/icon_raiting_user"
+        android:paddingRight="@dimen/margin_xlarge"
+        android:textColor="@drawable/selector_item_text_not_selected"
+        android:textSize="@dimen/TextSizeMedium" />
+
+    <TextView
+        android:id="@+id/tv_raiting_points"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/profile_list_counter_dimension"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="@dimen/margin_small"
+        android:background="@drawable/bg_counter"
+        android:gravity="center"
+        android:minWidth="@dimen/profile_list_counter_dimension"
+        android:shadowColor="@color/d_blue"
+        android:textColor="@color/white" />
+
+</RelativeLayout>

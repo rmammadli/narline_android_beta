@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="actionbar_height">48dp</dimen>
+    <dimen name="page_indicator_margin">5dip</dimen>
+    <dimen name="btn_slider_handle_indicator_height">26dip</dimen>
+    <dimen name="btn_slider_handle_indicator_width">64dip</dimen>
+    <dimen name="btnDimenStandart">42dip</dimen>
+    <dimen name="btnDimenBig">48dip</dimen>
+    <dimen name="splashLogoDimen">96dip</dimen>
+    <dimen name="homePageIconsDimen">80dip</dimen>
+    <dimen name="homePageContentBottomMargin">96dip</dimen>
+    <dimen name="slidingmenu_offset">477dip</dimen>
+    <dimen name="list_padding">10dp</dimen>
+    <dimen name="shadow_width">16dip</dimen>
+    <dimen name="margin_xlarge">48dip</dimen>
+    <dimen name="margin_large">32dip</dimen>
+    <dimen name="margin_normal">16dip</dimen>
+    <dimen name="margin_small">8dip</dimen>
+    <dimen name="margin_tiny">4dip</dimen>
+    <dimen name="margin_micro_tiny">2dip</dimen>
+    <dimen name="settings_list_padding">12dip</dimen>
+    <dimen name="TextSizeMicro">12sp</dimen>
+    <dimen name="TextSizeSmall">14sp</dimen>
+    <dimen name="TextSizeMedium">18sp</dimen>
+    <dimen name="TextSizeLarge">22sp</dimen>
+    <dimen name="TextSizeXLarge">32sp</dimen>
+    <dimen name="social_panel_dimensions">128dip</dimen>
+    <dimen name="social_icon_dimensions">64dip</dimen>
+    <dimen name="social_icon_dimensionsXL">96dip</dimen>
+    <dimen name="shadow_horizontal">12dip</dimen>
+    <dimen name="shadow_horizontal_small">6dip</dimen>
+    <dimen name="toggle_height">42dip</dimen>
+    <dimen name="toggle_width">70dip</dimen>
+    <dimen name="green_line_height">1dip</dimen>
+    <dimen name="social_dialog_padding">2dip</dimen>
+    <dimen name="slide_menu_offset">48dip</dimen>
+    <dimen name="menu_user_image_dimension">64dip</dimen>
+    <dimen name="menu_user_corner_radius">32dip</dimen>
+    <dimen name="menu_icon_width">24dip</dimen>
+    <dimen name="profile_user_image_dimension">96dip</dimen>
+    <dimen name="profile_user_image_corner_radius">48dip</dimen>
+    <dimen name="profile_list_user_image_dimension">48dip</dimen>
+    <dimen name="profile_list_text_margin_left">48dip</dimen>
+    <dimen name="profile_list_counter_dimension">36dip</dimen>
+    <dimen name="roudned_image_border_dimension">1dp</dimen>
+    <dimen name="notification_list_image_height">42dip</dimen>
+    <dimen name="notification_list_image_corner_radius">21dip</dimen>
+    <dimen name="scan_page_actions_dimension">48dip</dimen>
+    <dimen name="scan_page_likes_icon_dimension">12sp</dimen>
+    <dimen name="list_dvider_height">1px</dimen>
+    <dimen name="footer_buttons_dvider">1dip</dimen>
+    <dimen name="viewpager_indicator_radius">5dip</dimen>
+    <dimen name="viewpager_indicator_stroke_width">0px</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+</resources>

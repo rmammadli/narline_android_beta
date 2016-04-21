@@ -1,0 +1,206 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/llSettings"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:animateLayoutChanges="true"
+        android:scrollbarStyle="outsideOverlay"
+        android:scrollbars="none" >
+
+        <!-- Socail Settings Header Texts -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="@dimen/margin_small" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/btnDimenStandart"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/txtSetting1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/settings_header1"
+                    android:textColor="@color/d_gray"
+                    android:textSize="@dimen/TextSizeSmall" />
+
+                <TextView
+                    android:id="@+id/txtSetting2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/settings_header2"
+                    android:textColor="@color/d_gray"
+                    android:textSize="@dimen/TextSizeLarge" />
+            </LinearLayout>
+
+            <!-- Socail Settings Facebook -->
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/social_panel_dimensions"
+                android:background="@drawable/shape_layout_background" >
+
+                <LinearLayout
+                    android:id="@+id/llFacebook"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                    <ImageView
+                        android:id="@+id/imgFacebook"
+                        android:layout_width="@dimen/social_icon_dimensions"
+                        android:layout_height="@dimen/social_icon_dimensions" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/llFacebookText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/llFacebook"
+                    android:orientation="vertical"
+                    android:padding="@dimen/margin_small" >
+
+                    <TextView
+                        android:id="@+id/txtFacebookHeader"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/margin_small"
+                        android:text="@string/settings_facebook_header"
+                        android:textSize="@dimen/TextSizeMedium" />
+
+                    <TextView
+                        android:id="@+id/txtFacebookText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/settings_facebook_text"
+                        android:textSize="@dimen/TextSizeSmall" />
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:id="@+id/llFacebookFooter"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/btnDimenStandart"
+                    android:layout_alignParentBottom="true"
+                    android:paddingLeft="@dimen/margin_small"
+                    android:paddingRight="@dimen/margin_small" >
+
+                    <View
+                        style="@style/Greenline"
+                        android:layout_alignParentTop="true" />
+
+                    <TextView
+                        android:id="@+id/txtSettingFacebookFooter"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/btnDimenStandart"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentLeft="true"
+                        android:gravity="center_vertical"
+                        android:text="@string/settings_cennect_button"
+                        android:textSize="@dimen/TextSizeMedium" />
+
+                    <CheckBox
+                        android:id="@+id/switchFacebook"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentRight="true"
+                        android:button="@drawable/narmaniatheme_btn_check_holo_light"
+                        android:textColor="@color/transparent"
+                        android:textOff="   "
+                        android:textOn="   " />
+                </RelativeLayout>
+            </RelativeLayout>
+
+            <!-- <View style="@style/ShadowHorizontalSmall" /> -->
+
+
+            <!-- Socail Settings Twitter -->
+            <!--
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/social_panel_dimensions"
+                android:layout_marginTop="@dimen/margin_small"
+                android:background="@drawable/shape_layout_background" >
+
+                <LinearLayout
+                    android:id="@+id/llTwitter"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                    <ImageView
+                        android:id="@+id/imgTwitter"
+                        android:layout_width="@dimen/social_icon_dimensions"
+                        android:layout_height="@dimen/social_icon_dimensions" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/llTwitterText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/llTwitter"
+                    android:orientation="vertical"
+                    android:padding="@dimen/margin_small" >
+
+                    <TextView
+                        android:id="@+id/txtTwitterHeader"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/margin_small"
+                        android:text="@string/settings_twitter_header"
+                        android:textSize="@dimen/TextSizeMedium" />
+
+                    <TextView
+                        android:id="@+id/txtTwitterText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/settings_twitter_text"
+                        android:textSize="@dimen/TextSizeSmall" />
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:id="@+id/llTwitterFooter"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/btnDimenStandart"
+                    android:layout_alignParentBottom="true"
+                    android:paddingLeft="@dimen/margin_small"
+                    android:paddingRight="@dimen/margin_small" >
+
+                    <View
+                        style="@style/Greenline"
+                        android:layout_alignParentTop="true" />
+
+                    <TextView
+                        android:id="@+id/txtSettingTwitterFooter"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/btnDimenStandart"
+                        android:layout_alignParentLeft="true"
+                        android:gravity="center_vertical"
+                        android:text="@string/settings_cennect_button"
+                        android:textSize="@dimen/TextSizeMedium" />
+
+                    <CheckBox
+                        android:id="@+id/switchTwitter"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentRight="true"
+                        android:button="@drawable/narmaniatheme_btn_check_holo_light"
+                        android:textColor="@color/transparent"
+                        android:textOff="   "
+                        android:textOn="   " />
+                </RelativeLayout>
+            </RelativeLayout>  -->
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

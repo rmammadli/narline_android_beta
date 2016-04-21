@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.newo.newoapp.narline"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/actionbar_height"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <RelativeLayout
+            android:id="@+id/rlNotificationSlideMenu"
+            android:layout_width="@dimen/actionbar_height"
+            android:layout_height="match_parent"
+            android:background="@drawable/selector_actionbar_item"
+            android:clickable="true"
+            android:paddingBottom="@dimen/margin_tiny"
+            android:paddingLeft="@dimen/margin_small"
+            android:paddingRight="@dimen/margin_tiny"
+            android:paddingTop="@dimen/margin_tiny" >
+
+            <ToggleButton
+                android:id="@+id/toogleNotificationSlideMenu"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/selector_btn_toogle_notification"
+                android:clickable="false"
+                android:textOff=""
+                android:textOn="" />
+
+            <TextView
+                android:id="@+id/tvNotificationCountSlideMenu"
+                android:layout_width="@dimen/TextSizeMedium"
+                android:layout_height="@dimen/TextSizeMedium"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginRight="@dimen/margin_tiny"
+                android:layout_marginTop="@dimen/margin_tiny"
+                android:background="@drawable/bg_notification_counter"
+                android:clickable="false"
+                android:gravity="center"
+                android:padding="@dimen/margin_micro_tiny"
+                android:textColor="@color/white"
+                android:textSize="@dimen/TextSizeMicro"
+                android:visibility="invisible" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llUserInfoSlideMenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/list_selector"
+        android:clickable="true"
+        android:orientation="vertical"
+        android:paddingTop="@dimen/margin_small" >
+
+        <LinearLayout
+            android:id="@+id/llUserImageSlideMenu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center" >
+
+            <com.newo.newoapp.RoundedImageView
+                android:id="@+id/rimgUserImageSlideMenu"
+                android:layout_width="@dimen/menu_user_image_dimension"
+                android:layout_height="@dimen/menu_user_image_dimension"
+                android:src="@drawable/icon_pofile_image"
+                app:border_color="@drawable/selector_menu_item_blue_to_white"
+                app:border_width="@dimen/roudned_image_border_dimension"
+                app:corner_radius="@dimen/menu_user_corner_radius" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llUserTextSlideMenu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_small"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tvNameSlideMenu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/name"
+                android:textColor="@drawable/selector_menu_item_text"
+                android:textSize="@dimen/TextSizeMedium" />
+
+            <TextView
+                android:id="@+id/tvUsernameSlideMenu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/username"
+                android:textColor="@drawable/selector_menu_item_text"
+                android:textSize="@dimen/TextSizeSmall" />
+        </LinearLayout>
+    </LinearLayout>
+    <!-- Listview to display slider menu -->
+
+    <ListView
+        android:id="@+id/list_slidermenu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:choiceMode="singleChoice"
+        android:divider="@color/gray"
+        android:dividerHeight="@dimen/list_dvider_height"
+        android:scrollbars="none" />
+
+</LinearLayout>

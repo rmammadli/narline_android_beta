@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Generated with http://android-holo-colors.com -->
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <style name="NarManiaTheme" parent="@style/_NarManiaTheme"/>
+
+  <style name="_NarManiaTheme" parent="android:Theme.Light">
+
+    <item name="android:editTextStyle">@style/EditTextNarManiaTheme</item>
+
+    <item name="android:textColorHighlight">#99a6228e</item>
+
+    <item name="android:autoCompleteTextViewStyle">@style/AutoCompleteTextViewNarManiaTheme</item>
+
+    <item name="android:checkboxStyle">@style/CheckBoxNarManiaTheme</item>
+
+    <item name="android:radioButtonStyle">@style/RadioButtonNarManiaTheme</item>
+
+    <item name="android:buttonStyle">@style/ButtonNarManiaTheme</item>
+
+    <item name="android:imageButtonStyle">@style/ImageButtonNarManiaTheme</item>
+
+    <item name="android:spinnerStyle">@style/SpinnerNarManiaTheme</item>
+
+    <item name="android:spinnerDropDownItemStyle">@style/SpinnerDropDownItemNarManiaTheme</item>
+
+    <item name="android:progressBarStyleHorizontal">@style/ProgressBarNarManiaTheme</item>
+
+    <item name="android:seekBarStyle">@style/SeekBarNarManiaTheme</item>
+
+    <item name="android:ratingBarStyle">@style/RatingBarNarManiaTheme</item>
+
+    <item name="android:ratingBarStyleIndicator">@style/RatingBarBigNarManiaTheme</item>
+
+    <item name="android:ratingBarStyleSmall">@style/RatingBarSmallNarManiaTheme</item>
+
+    <item name="android:buttonStyleToggle">@style/ToggleNarManiaTheme</item>
+
+    <item name="android:listViewStyle">@style/ListViewNarManiaTheme</item>
+
+    <item name="android:listViewWhiteStyle">@style/ListViewNarManiaTheme.White</item>
+
+    <item name="android:spinnerItemStyle">@style/SpinnerItemNarManiaTheme</item>
+
+  </style>
+
+</resources>

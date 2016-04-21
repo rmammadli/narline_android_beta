@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@drawable/icon_nar_on" android:state_checked="true"/>
+    <item android:drawable="@drawable/of_11" android:state_checked="false"/>
+
+</selector>

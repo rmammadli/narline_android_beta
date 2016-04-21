@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Generated with http://android-holo-colors.com -->
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <style name="NeWo_Blue_KitKat" parent="@style/_NeWo_Blue_KitKat"/>
+
+  <style name="_NeWo_Blue_KitKat" parent="@android:style/Theme.Holo.Light">
+
+    <item name="android:editTextStyle">@style/EditTextNeWo_Blue_KitKat</item>
+
+    <item name="android:textColorHighlight">#9900a9d6</item>
+
+    <item name="android:autoCompleteTextViewStyle">@style/AutoCompleteTextViewNeWo_Blue_KitKat</item>
+
+    <item name="android:checkboxStyle">@style/CheckBoxNeWo_Blue_KitKat</item>
+
+    <item name="android:radioButtonStyle">@style/RadioButtonNeWo_Blue_KitKat</item>
+
+    <item name="android:buttonStyle">@style/ButtonNeWo_Blue_KitKat</item>
+
+    <item name="android:imageButtonStyle">@style/ImageButtonNeWo_Blue_KitKat</item>
+
+    <item name="android:spinnerStyle">@style/SpinnerNeWo_Blue_KitKat</item>
+
+    <item name="android:spinnerDropDownItemStyle">@style/SpinnerDropDownItemNeWo_Blue_KitKat</item>
+
+    <item name="android:progressBarStyleHorizontal">@style/ProgressBarNeWo_Blue_KitKat</item>
+
+    <item name="android:seekBarStyle">@style/SeekBarNeWo_Blue_KitKat</item>
+
+    <item name="android:ratingBarStyle">@style/RatingBarNeWo_Blue_KitKat</item>
+
+    <item name="android:ratingBarStyleIndicator">@style/RatingBarBigNeWo_Blue_KitKat</item>
+
+    <item name="android:ratingBarStyleSmall">@style/RatingBarSmallNeWo_Blue_KitKat</item>
+
+    <item name="android:buttonStyleToggle">@style/ToggleNeWo_Blue_KitKat</item>
+
+    <item name="android:listViewStyle">@style/ListViewNeWo_Blue_KitKat</item>
+
+    <item name="android:listViewWhiteStyle">@style/ListViewNeWo_Blue_KitKat.White</item>
+
+    <item name="android:spinnerItemStyle">@style/SpinnerItemNeWo_Blue_KitKat</item>
+
+  </style>
+
+</resources>

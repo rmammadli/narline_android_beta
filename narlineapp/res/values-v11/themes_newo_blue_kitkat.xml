@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Generated with http://android-holo-colors.com -->
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <style name="NeWo_Blue_KitKat" parent="@style/_NeWo_Blue_KitKat"/>
+
+  <style name="_NeWo_Blue_KitKat" parent="@android:style/Theme.Holo.Light">
+
+    <item name="android:editTextBackground">@drawable/newo_blue_kitkat_edit_text_holo_light</item>
+
+    <item name="android:textColorHighlight">#9900a9d6</item>
+    <item name="android:textSelectHandleLeft">@drawable/newo_blue_kitkat_text_select_handle_left</item>
+    <item name="android:textSelectHandleRight">@drawable/newo_blue_kitkat_text_select_handle_right</item>
+    <item name="android:textSelectHandle">@drawable/newo_blue_kitkat_text_select_handle_middle</item>
+
+    <item name="android:autoCompleteTextViewStyle">@style/AutoCompleteTextViewNeWo_Blue_KitKat</item>
+
+    <item name="android:listChoiceIndicatorMultiple">@drawable/newo_blue_kitkat_btn_check_holo_light</item>
+
+    <item name="android:listChoiceIndicatorSingle">@drawable/newo_blue_kitkat_btn_radio_holo_light</item>
+
+    <item name="android:buttonStyle">@style/ButtonNeWo_Blue_KitKat</item>
+
+    <item name="android:imageButtonStyle">@style/ImageButtonNeWo_Blue_KitKat</item>
+
+    <item name="android:dropDownSpinnerStyle">@style/SpinnerNeWo_Blue_KitKat</item>
+
+    <item name="android:progressBarStyleHorizontal">@style/ProgressBarNeWo_Blue_KitKat</item>
+
+    <item name="android:seekBarStyle">@style/SeekBarNeWo_Blue_KitKat</item>
+
+    <item name="android:ratingBarStyle">@style/RatingBarNeWo_Blue_KitKat</item>
+
+    <item name="android:ratingBarStyleIndicator">@style/RatingBarBigNeWo_Blue_KitKat</item>
+
+    <item name="android:ratingBarStyleSmall">@style/RatingBarSmallNeWo_Blue_KitKat</item>
+
+    <item name="android:buttonStyleToggle">@style/ToggleNeWo_Blue_KitKat</item>
+
+    <item name="android:listChoiceBackgroundIndicator">@drawable/newo_blue_kitkat_list_selector_holo_light</item>
+
+    <item name="android:activatedBackgroundIndicator">@drawable/newo_blue_kitkat_activated_background_holo_light</item>
+
+    <item name="android:fastScrollThumbDrawable">@drawable/newo_blue_kitkat_fastscroll_thumb_holo</item>
+
+  </style>
+
+</resources>

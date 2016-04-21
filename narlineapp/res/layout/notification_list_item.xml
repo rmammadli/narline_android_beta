@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.newo.newoapp.narline"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/newothemekitkat_list_selector_holo_light"
+    android:gravity="center_vertical"
+    android:paddingBottom="@dimen/margin_small"
+    android:paddingTop="@dimen/margin_small" >
+
+    <com.newo.newoapp.RoundedImageView
+        android:id="@+id/icon_notification_first"
+        android:layout_width="@dimen/notification_list_image_height"
+        android:layout_height="@dimen/profile_list_user_image_dimension"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/margin_small"
+        android:layout_marginRight="@dimen/margin_small"
+        android:src="@drawable/ic_launcher"
+        app:corner_radius="@dimen/notification_list_image_corner_radius" />
+
+    <TextView
+        android:id="@+id/tvtext_notification"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/icon_notification_first"
+        android:paddingRight="@dimen/margin_xlarge"
+        android:textColor="@drawable/selector_item_text_not_selected"
+        android:textSize="@dimen/TextSizeSmall" />
+
+    <TextView
+        android:id="@+id/tvtext_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@id/tvtext_notification"
+        android:layout_toRightOf="@id/icon_notification_first"
+        android:paddingRight="@dimen/margin_xlarge"
+        android:textColor="@drawable/selector_item_text_not_selected"
+        android:textSize="@dimen/TextSizeMicro" />
+
+    <ImageView
+        android:id="@+id/icon_notification_second"
+        android:layout_width="@dimen/notification_list_image_height"
+        android:layout_height="@dimen/profile_list_user_image_dimension"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/margin_small"
+        android:layout_marginRight="@dimen/margin_small"
+        android:gravity="center"
+        android:src="@drawable/ic_launcher" />
+
+</RelativeLayout>

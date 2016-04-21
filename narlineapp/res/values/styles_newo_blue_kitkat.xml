@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Generated with http://android-holo-colors.com -->
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <style name="EditTextNeWo_Blue_KitKat" parent="android:Widget.EditText">
+	  <item name="android:background">@drawable/newo_blue_kitkat_edit_text_holo_light</item>
+	  <item name="android:textColor">#000000</item>
+  </style>
+
+  <style name="AutoCompleteTextViewNeWo_Blue_KitKat" parent="android:Widget.AutoCompleteTextView">
+      <item name="android:dropDownSelector">@drawable/newo_blue_kitkat_list_selector_holo_light</item>
+	  <item name="android:background">@drawable/newo_blue_kitkat_edit_text_holo_light</item>
+	  <item name="android:textColor">#000000</item>
+  </style>
+
+  <style name="CheckBoxNeWo_Blue_KitKat" parent="android:Widget.CompoundButton.CheckBox">
+      <item name="android:button">@drawable/newo_blue_kitkat_btn_check_holo_light</item>
+  </style>
+
+  <style name="RadioButtonNeWo_Blue_KitKat" parent="android:Widget.CompoundButton.RadioButton">
+      <item name="android:button">@drawable/newo_blue_kitkat_btn_radio_holo_light</item>
+  </style>
+
+  <style name="ButtonNeWo_Blue_KitKat" parent="android:Widget.Button">
+	  <item name="android:background">@drawable/newo_blue_kitkat_btn_default_holo_light</item>
+	  <item name="android:minHeight">48dip</item>
+	  <item name="android:minWidth">64dip</item>
+	  <item name="android:textColor">#000000</item>
+  </style>
+
+  <style name="ImageButtonNeWo_Blue_KitKat" parent="android:Widget.ImageButton">
+	  <item name="android:background">@drawable/newo_blue_kitkat_btn_default_holo_light</item>
+  </style>
+
+  <style name="SpinnerNeWo_Blue_KitKat" parent="android:Widget.Spinner">
+      <item name="android:background">@drawable/newo_blue_kitkat_spinner_background_holo_light</item>
+      <item name="android:dropDownSelector">@drawable/newo_blue_kitkat_list_selector_holo_light</item>
+  </style>
+
+  <style name="SpinnerDropDownItemNeWo_Blue_KitKat" parent="android:Widget.DropDownItem.Spinner">
+      <item name="android:checkMark">@drawable/newo_blue_kitkat_btn_radio_holo_light</item>
+  </style>
+  <style name="TabNeWo_Blue_KitKat">
+      <item name="android:gravity">center_horizontal</item>
+      <item name="android:paddingLeft">16dip</item>
+      <item name="android:paddingRight">16dip</item>
+      <item name="android:background">@drawable/newo_blue_kitkat_tab_indicator_holo</item>
+      <item name="android:layout_width">0dip</item>
+      <item name="android:layout_weight">1</item>
+      <item name="android:minWidth">80dip</item>
+  </style>
+
+  <style name="TabTextNeWo_Blue_KitKat">
+	  <item name="android:textColor">#000000</item>
+      <item name="android:textSize">12sp</item>
+      <item name="android:textStyle">bold</item>
+      <!-- v14 <item name="android:textAllCaps">true</item> -->
+      <item name="android:ellipsize">marquee</item>
+      <item name="android:maxLines">2</item>
+      <item name="android:maxWidth">180dip</item>
+  </style>
+
+  <style name="ProgressBarNeWo_Blue_KitKat" parent="android:Widget.ProgressBar.Horizontal">
+      <item name="android:progressDrawable">@drawable/newo_blue_kitkat_progress_horizontal_holo_light</item>
+      <item name="android:indeterminateDrawable">@drawable/newo_blue_kitkat_progress_indeterminate_horizontal_holo_light</item>
+      <item name="android:minHeight">16dip</item>
+      <item name="android:maxHeight">16dip</item>
+  </style>
+
+  <style name="SeekBarNeWo_Blue_KitKat" parent="android:Widget.SeekBar">
+      <item name="android:progressDrawable">@drawable/newo_blue_kitkat_scrubber_progress_horizontal_holo_light</item>
+      <item name="android:indeterminateDrawable">@drawable/newo_blue_kitkat_scrubber_progress_horizontal_holo_light</item>
+      <item name="android:minHeight">13dip</item>
+      <item name="android:maxHeight">13dip</item>
+      <item name="android:thumb">@drawable/newo_blue_kitkat_scrubber_control_selector_holo_light</item>
+      <item name="android:thumbOffset">16dip</item>
+      <item name="android:paddingLeft">16dip</item>
+      <item name="android:paddingRight">16dip</item>
+  </style>
+
+  <style name="RatingBarNeWo_Blue_KitKat" parent="android:Widget.RatingBar">
+      <item name="android:progressDrawable">@drawable/newo_blue_kitkat_ratingbar_full_holo_light</item>
+      <item name="android:indeterminateDrawable">@drawable/newo_blue_kitkat_ratingbar_full_holo_light</item>
+  </style>
+
+  <style name="RatingBarBigNeWo_Blue_KitKat">
+      <item name="android:progressDrawable">@drawable/newo_blue_kitkat_ratingbar_holo_light</item>
+      <item name="android:indeterminateDrawable">@drawable/newo_blue_kitkat_ratingbar_holo_light</item>
+      <item name="android:minHeight">35dip</item>
+      <item name="android:maxHeight">35dip</item>
+  </style>
+
+  <style name="RatingBarSmallNeWo_Blue_KitKat">
+      <item name="android:progressDrawable">@drawable/newo_blue_kitkat_ratingbar_small_holo_light</item>
+      <item name="android:indeterminateDrawable">@drawable/newo_blue_kitkat_ratingbar_small_holo_light</item>
+      <item name="android:minHeight">16dip</item>
+      <item name="android:maxHeight">16dip</item>
+  </style>
+
+  <style name="ToggleNeWo_Blue_KitKat" parent="android:Widget.Button.Toggle">
+      <item name="android:background">@drawable/newo_blue_kitkat_btn_toggle_holo_light</item>
+      <item name="android:minHeight">48dip</item>
+	  <item name="android:textColor">#000000</item>
+  </style>
+
+  <style name="ListViewNeWo_Blue_KitKat" parent="android:Widget.ListView">
+      <item name="android:listSelector">@drawable/newo_blue_kitkat_list_selector_holo_light</item>
+  </style>
+
+  <style name="ListViewNeWo_Blue_KitKat.White" parent="android:Widget.ListView.White">
+      <item name="android:listSelector">@drawable/newo_blue_kitkat_list_selector_holo_light</item>
+  </style>
+
+  <style name="SpinnerItemNeWo_Blue_KitKat" parent="android:TextAppearance.Widget.TextView.SpinnerItem">
+      <item name="android:textColor">#000000</item>
+  </style>
+
+</resources>

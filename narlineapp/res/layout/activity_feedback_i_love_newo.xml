@@ -1,0 +1,142 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/llILove"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="@dimen/margin_small" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/btnDimenStandart"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tvILove1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/i_love_header1"
+                android:textColor="@color/d_gray"
+                android:textSize="@dimen/TextSizeSmall" />
+
+            <TextView
+                android:id="@+id/tvILove2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/i_love_header2"
+                android:textColor="@color/d_gray"
+                android:textSize="@dimen/TextSizeLarge" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:id="@+id/rlILoveGooglePlay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/selector_layout_white"
+                android:clickable="true" >
+
+                <LinearLayout
+                    android:id="@+id/llILoveGooglePlay"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical" >
+
+                    <ImageView
+                        android:id="@+id/imgILoveGooglePlay"
+                        android:layout_width="@dimen/social_icon_dimensions"
+                        android:layout_height="@dimen/social_icon_dimensions"
+                        android:src="@drawable/icon_nar_googleplay" />
+
+                    <TextView
+                        android:id="@+id/tvILoveGooglePlay"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/i_love_google_play"
+                        android:textColor="@drawable/selector_menu_item_text"
+                        android:textSize="@dimen/TextSizeMedium" />
+                </LinearLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rlILoveFacebook"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_small"
+                android:layout_weight="1"
+                android:background="@drawable/selector_layout_white"
+                android:clickable="true" >
+
+                <LinearLayout
+                    android:id="@+id/llILoveFacebook"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical" >
+
+                    <ImageView
+                        android:id="@+id/imgllILoveFacebook"
+                        android:layout_width="@dimen/social_icon_dimensions"
+                        android:layout_height="@dimen/social_icon_dimensions"
+                        android:src="@drawable/icon_nar_facebook" />
+
+                    <TextView
+                        android:id="@+id/tvILoveFacebook"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/i_love_facebook"
+                        android:textColor="@drawable/selector_menu_item_text"
+                        android:textSize="@dimen/TextSizeMedium" />
+                </LinearLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rlILoveTwitter"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_small"
+                android:layout_weight="1"
+                android:background="@drawable/selector_layout_white"
+                android:clickable="true" >
+
+                <LinearLayout
+                    android:id="@+id/llILoveTwitter"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical" >
+
+                    <ImageView
+                        android:id="@+id/imgILoveTwitter"
+                        android:layout_width="@dimen/social_icon_dimensions"
+                        android:layout_height="@dimen/social_icon_dimensions"
+                        android:src="@drawable/icon_nar_twitter" />
+
+                    <TextView
+                        android:id="@+id/tvILoveTwitter"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/i_love_twitter"
+                        android:textColor="@drawable/selector_menu_item_text"
+                        android:textSize="@dimen/TextSizeMedium" />
+                </LinearLayout>
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

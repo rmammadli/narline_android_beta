@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Generated with http://android-holo-colors.com -->
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <style name="NeWoThemeKitKat" parent="@android:style/Theme.Holo.Light"/>
+
+  <style name="_NeWoThemeKitKat" parent="@android:style/Theme.Holo.Light.Dialog.NoActionBar">
+
+    <item name="android:editTextStyle">@style/EditTextNeWoThemeKitKat</item>
+
+    <item name="android:textColorHighlight">#99ffffff</item>
+
+    <item name="android:checkboxStyle">@style/CheckBoxNeWoThemeKitKat</item>
+
+    <item name="android:buttonStyle">@style/ButtonNeWoThemeKitKat</item>
+
+    <item name="android:imageButtonStyle">@style/ImageButtonNeWoThemeKitKat</item>
+
+    <item name="android:progressBarStyleHorizontal">@style/ProgressBarNeWoThemeKitKat</item>
+
+    <item name="android:ratingBarStyleIndicator">@style/RatingBarBigNeWoThemeKitKat</item>
+
+    <item name="android:ratingBarStyleSmall">@style/RatingBarSmallNeWoThemeKitKat</item>
+
+    <item name="android:listViewStyle">@style/ListViewNeWoThemeKitKat</item>
+
+    <item name="android:listViewWhiteStyle">@style/ListViewNeWoThemeKitKat.White</item>
+
+    <item name="android:spinnerItemStyle">@style/SpinnerItemNeWoThemeKitKat</item>
+
+  </style>
+
+</resources>

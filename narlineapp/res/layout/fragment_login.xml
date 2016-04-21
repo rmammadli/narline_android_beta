@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/h_blue_trans"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/homePageContentBottomMargin" >
+
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:animateLayoutChanges="true"
+        android:scrollbarStyle="outsideOverlay"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:orientation="vertical"
+                android:padding="@dimen/margin_large" >
+
+                <ImageView
+                    android:id="@+id/imgLoginLogo"
+                    android:layout_width="@dimen/homePageIconsDimen"
+                    android:layout_height="@dimen/homePageIconsDimen"
+                    android:layout_gravity="center_vertical|center_horizontal"
+                    android:layout_marginBottom="@dimen/margin_normal" />
+
+                <EditText
+                    android:id="@+id/etxtLoginUsername"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="25"
+                    android:hint="@string/text_hint_username_oremail"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white_trans" />
+
+                <requestFocus />
+
+                <EditText
+                    android:id="@+id/etxtLoginPassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_small"
+                    android:hint="@string/text_hint_password"
+                    android:inputType="textPassword"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white_trans" />
+
+                <Button
+                    android:id="@+id/btnLogin"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/btnDimenStandart"
+                    android:layout_marginTop="@dimen/margin_normal"
+                    android:background="@drawable/narmaniatheme_btn_default_holo_light"
+                    android:enabled="false"
+                    android:text="@string/text_btn_login"
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:id="@+id/tvForgotPassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_normal"
+                    android:gravity="center_horizontal"
+                    android:text="@string/text_forgot_password"
+                    android:textColor="@color/white"
+                    android:textColorLink="@color/white" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <include layout="@layout/layout_progressbar" />
+
+</RelativeLayout>

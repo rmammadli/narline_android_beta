@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:gravity="center_vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/newothemekitkat_list_selector_holo_light"
+        android:gravity="center_vertical"
+        android:paddingBottom="@dimen/margin_tiny"
+        android:paddingTop="@dimen/margin_tiny" >
+
+        <ImageView
+            android:id="@+id/imgCompanyLogo"
+            android:layout_width="@dimen/profile_list_user_image_dimension"
+            android:layout_height="@dimen/profile_list_user_image_dimension"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/margin_small"
+            android:layout_marginRight="@dimen/margin_small"
+            android:scaleType="center"
+            android:src="@drawable/ic_launcher" />
+
+        <TextView
+            android:id="@+id/tvCompanyName"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@id/imgCompanyLogo"
+            android:paddingRight="@dimen/profile_list_text_margin_left"
+            android:textColor="@drawable/selector_item_text_not_selected"
+            android:textSize="@dimen/TextSizeMedium" />
+
+        <TextView
+            android:id="@+id/tvCompanyLocation"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_below="@id/tvCompanyName"
+            android:layout_toRightOf="@id/imgCompanyLogo"
+            android:paddingRight="@dimen/profile_list_text_margin_left"
+            android:textColor="@drawable/selector_item_text_not_selected"
+            android:textSize="@dimen/TextSizeMicro" />
+
+        <TextView
+            android:id="@+id/tvLastUpdateTime"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_below="@id/tvCompanyLocation"
+            android:layout_toRightOf="@id/imgCompanyLogo"
+            android:paddingRight="@dimen/profile_list_text_margin_left"
+            android:textColor="@drawable/selector_item_text_not_selected"
+            android:textSize="@dimen/TextSizeMicro" />
+
+        <TextView
+            android:id="@+id/tvPoints"
+            android:layout_width="wrap_content"
+            android:minWidth="@dimen/profile_list_counter_dimension"
+            android:layout_height="@dimen/profile_list_counter_dimension"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/margin_small"
+            android:background="@drawable/bg_counter"
+            android:gravity="center"
+            android:textColor="@color/white" />
+    </RelativeLayout>
+
+</RelativeLayout>

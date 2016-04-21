@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="loading_message">Yüklənir...</string>
+    <string name="app_name">Bakuline</string>
+    <string name="action_settings">Parametrlər</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="text_splash_slogan">Əyləncənin yeni yolu...</string>
+    <string name="text_pager_welcome1">Skan et</string>
+    <string name="text_pager_welcome_content1">Skan edərək əyləncənin yeni yolunu kəşf edin...</string>
+    <string name="text_pager_welcome2">Kəşf et</string>
+    <string name="text_pager_welcome_content2">Skan edərək sürprizləri kəşf et...</string>
+    <string name="text_pager_welcome3">Müsabiqəyə qoşul</string>
+    <string name="text_pager_welcome_content3">Skan edərək xal topla, müsabiqələrə qoşul və dəyərli hədiyyələr qazan...</string>
+    <string name="text_pager_welcome4">Paylaş</string>
+    <string name="text_pager_welcome_content4">Kəşflərini və nəticələrini sosial şəbəkələrdə dostlarınla paylaş...</string>
+    <string name="text_hint_username">İstifadəçi adı</string>
+    <string name="text_hint_username_oremail">İstifadəçi adı/E-poçt</string>
+    <string name="text_hint_name">Ad/Soyad</string>
+    <string name="text_hint_email">E-poçt</string>
+    <string name="text_hint_password">Şifrə</string>
+    <string name="text_hint_phone">Mobil nömrə</string>
+    <string name="text_btn_register">Qoşul</string>
+    <string name="text_btn_login">Daxil ol</string>
+    <string name="text_btn_facebook_login">Facebook la qoşul</string>
+    <string name="text_hint_birthday">Doğum tarixi</string>
+    <string name="text_hint_gender">Cins</string>
+    <string name="text_hint_password_current">Hazırkı şifrə</string>
+    <string name="text_hint_password_new1">Yeni şifrə</string>
+    <string name="text_hint_password_new2">Yeni şifrə (təkrar)</string>
+    <string name="text_forgot_password"><u>Şifrəni unutdum</u></string>
+    <string name="trans_alpha">0.93</string>
+    <string name="trans_alpha2">0.8</string>
+    <string name="trans_alpha3">0.6</string>
+    <string name="trans_alpha1">0.4</string>
+    <string name="title_activity_splash_screen"></string>
+    <string name="btnGetStarted">Əyləncəyə başla!</string>
+    <string name="title_activity_home"></string>
+    <string name="sliding_menu_scanner">Skan</string>
+    <string name="sliding_menu_settings">Parametrlər</string>
+    <string name="title_activity_card_flip"></string>
+    <string name="action_info">Parametrlər</string>
+    <string name="action_photo">Skan</string>
+    <string name="textScannerSocial">Paylaş</string>
+    <string name="textScannerLight">Fləş</string>
+    <string name="tap_to_scan">Ekrana toxun, skan et</string>
+    <string name="text_faves">0 dəfə bəyənilib</string>
+    <string name="text_points">0</string>
+    <string name="textCopyright">Bütün huquqlar qorunur NeWo, 2014</string>
+    <string name="settings_header1">sosial şəbəkələrdə</string>
+    <string name="settings_header2">PAYLAŞ</string>
+    <string name="settings_facebook_header">Facebook</string>
+    <string name="settings_facebook_text">Qoş  və kəşflərini Facebook dostlarınla paylaş.</string>
+    <string name="settings_twitter_header">Twitter</string>
+    <string name="settings_twitter_text">Qoş və kəşflərini Twitter dostlarınla paylaş.</string>
+    <string name="settings_google_header">Google+</string>
+    <string name="settings_google_text">Qoş və kəşflərini Google+ dostlarınla paylaş.</string>
+    <string name="settings_newo_header">NeWo</string>
+    <string name="settings_newo_text">a Single scan can open whole world information in front of you!</string>
+    <string name="settings_about_header1">to learn more</string>
+    <string name="settings_about_header2">ABOUT NeWo</string>
+    <string name="settings_cennect_button">Qoş</string>
+    <string name="feedback_header_1">TƏƏSSÜRATLARINI</string>
+    <string name="feedback_header_2">bizimlə paylaş</string>
+    <string name="feedback_header_i_love_newo">I love NarLine</string>
+    <string name="feedback_header_send_feedback">Rəy bildir</string>
+    <string name="i_love_header1">NarLine haqqında</string>
+    <string name="i_love_header2">dostlarınızı məlumatlandırın</string>
+    <string name="i_love_google_play">GOOGLE PLAY-də qiymətləndir</string>
+    <string name="i_love_facebook">FACEBOOK-da paylaş</string>
+    <string name="i_love_twitter">TWITTER-də tweetlə</string>
+    <string name="app_id">619924914771046</string>
+    <string name="social_dialog_message">Müvəqqəti olaraq aktiv deyil.</string>
+
+    <string-array name="genders">
+        <item>-</item>
+        <item>male</item>
+        <item>female</item>
+    </string-array>
+
+    <!-- Keep them in order as the titles are in -->
+    <array name="nav_drawer_icons">
+        <item>@drawable/icon_nar_profile</item>
+        <item>@drawable/icon_nar_scan</item>
+        <item>@drawable/icon_nar_raiting</item>
+        <item>@drawable/icon_nar_social</item>
+        <item>@drawable/icon_nar_feedback</item>
+        <item>@drawable/icon_nar_tour</item>
+        <item>@drawable/icon_nar_settings</item>
+    </array>
+
+    <string name="title_activity_product_tour"></string>
+    <string name="username">\@İstifadəçi adı</string>
+    <string name="name">n&amp;s</string>
+    <string name="phone_number">Mobil nömrə</string>
+    <string name="agreement">“Qoşul”-a klikləməklə siz <a href="https://www.narmobile.az/narline/narline_privacy.html"><u>Xidmət şərtləri</u></a> və <a href="https://www.narmobile.az/narline/narline_terms_of_use.html"><u>Gizlilik Siyasətini</u></a> oxuduğunuzu və razılaşdığınızı təsdiq edirsiniz.</string>
+    <string name="title_activity_fill_user_info">Sizin məlumatlarınız</string>
+    <string name="fill_user_info_personal1">ŞƏXSİ MƏLUMATLARINIZI</string>
+    <string name="fill_user_info_personal2">daxil edin</string>
+    <string name="fill_user_info_required1"></string>
+    <string name="fill_user_info_required2"></string>
+    <string name="title_activity_settings">Parametrlər</string>
+    <string name="activity_settings_about">Müsabiqə haqqında</string>
+    <string name="activity_settings_blog">Blog</string>
+    <string name="activity_settings_privacy">Məxfilik siyasəti</string>
+    <string name="activity_settings_terms">İstifadə şərtləri</string>
+    <string name="activity_settings_log">Dəyişikliklər</string>
+    <string name="profile_actionmenu_refresh">YENİDƏN BAŞLAT</string>
+    <string name="profile_actionmenu_edit">DƏYİŞ</string>
+    <string name="fill_user_info_actionmenu">SAXLA</string>
+    <string name="change_password_actionmenu">SAXLA</string>
+    <string name="title_activity_edit_password">Şifrəni dəyiş</string>
+    <string name="change_password_current1"></string>
+    <string name="change_password_current2">HAL-HAZIRKI ŞİFRƏ</string>
+    <string name="change_password_new1"></string>
+    <string name="change_password_new2">YENİ ŞİFRƏ</string>
+    <string name="change_profile_data_is_ok">Profil məlumatları dəyişdirildi.</string>
+    <string name="change_profile_data_error">Problem!</string>
+    <string name="internet_connection_error">İnternet bağlantısı yoxdur.</string>
+    <string name="title_activity_ilove_ne_wo">I love NarLine</string>
+    <string name="title_activity_progress">ProgressActivity</string>
+    <string name="title_activity_base">BaseActivity</string>
+    <string name="title_activity_web_view">WebView</string>
+    <string name="title_activity_progress_sliding_fragment">ProgressSlidingFragmentActivity</string>
+    <string name="title_activity_notification">Bildirişlər</string>
+    <string name="title_activity_scan"></string>
+    <string name="title_activity_about_competiton">Müsabiqə haqqında</string>
+
+</resources>

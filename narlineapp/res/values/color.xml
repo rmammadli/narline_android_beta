@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="white">#FFF</color>
+    <color name="white_trans">#60FFFFFF</color>
+    <color name="l_blue">#909BAA</color>
+    <color name="d_blue">#731762</color>
+    <color name="h_blue">#A6228E</color>
+    <color name="h_green">#9c0</color>
+    <color name="d_green">#669900</color>
+    <color name="gray">#CCCCCC</color>
+    <color name="d_gray">#666</color>
+    <color name="yellow">#FDB813</color>
+    <color name="black">#000</color>
+    <color name="lighter_gray">#ddd</color>
+    <color name="darker_gray">#aaa</color>
+    <color name="transparent">#00000000</color>
+    <color name="h_green_trans">#6099CC00</color>
+    <color name="h_blue_trans">#99A6228E</color>
+    <color name="facebook_color">#3b5998</color>
+
+</resources>

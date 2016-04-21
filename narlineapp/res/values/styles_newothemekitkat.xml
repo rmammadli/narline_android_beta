@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Generated with http://android-holo-colors.com -->
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <style name="EditTextNeWoThemeKitKat" parent="android:Widget.EditText">
+	  <item name="android:background">@drawable/newothemekitkat_edit_text_holo_light</item>
+	  <item name="android:textColor">#000000</item>
+  </style>
+
+  <style name="CheckBoxNeWoThemeKitKat" parent="android:Widget.CompoundButton.CheckBox">
+      <item name="android:button">@drawable/newothemekitkat_btn_check_holo_light</item>
+  </style>
+
+  <style name="ButtonNeWoThemeKitKat" parent="android:Widget.Button">
+	  <item name="android:background">@drawable/newothemekitkat_btn_default_holo_light</item>
+	  <item name="android:minHeight">48dip</item>
+	  <item name="android:minWidth">64dip</item>
+	  <item name="android:textColor">#000000</item>
+  </style>
+
+  <style name="ImageButtonNeWoThemeKitKat" parent="android:Widget.ImageButton">
+	  <item name="android:background">@drawable/newothemekitkat_btn_default_holo_light</item>
+  </style>
+
+  <style name="ProgressBarNeWoThemeKitKat" parent="android:Widget.ProgressBar.Horizontal">
+      <item name="android:progressDrawable">@drawable/newothemekitkat_progress_horizontal_holo_light</item>
+      <item name="android:indeterminateDrawable">@drawable/newothemekitkat_progress_indeterminate_horizontal_holo_light</item>
+      <item name="android:minHeight">16dip</item>
+      <item name="android:maxHeight">16dip</item>
+  </style>
+
+  <style name="RatingBarBigNeWoThemeKitKat">
+      <item name="android:progressDrawable">@drawable/newothemekitkat_ratingbar_holo_light</item>
+      <item name="android:indeterminateDrawable">@drawable/newothemekitkat_ratingbar_holo_light</item>
+      <item name="android:minHeight">35dip</item>
+      <item name="android:maxHeight">35dip</item>
+  </style>
+
+  <style name="RatingBarSmallNeWoThemeKitKat">
+      <item name="android:progressDrawable">@drawable/newothemekitkat_ratingbar_small_holo_light</item>
+      <item name="android:indeterminateDrawable">@drawable/newothemekitkat_ratingbar_small_holo_light</item>
+      <item name="android:minHeight">16dip</item>
+      <item name="android:maxHeight">16dip</item>
+  </style>
+
+  <style name="ListViewNeWoThemeKitKat" parent="android:Widget.ListView">
+      <item name="android:listSelector">@drawable/newothemekitkat_list_selector_holo_light</item>
+  </style>
+
+  <style name="ListViewNeWoThemeKitKat.White" parent="android:Widget.ListView.White">
+      <item name="android:listSelector">@drawable/newothemekitkat_list_selector_holo_light</item>
+  </style>
+
+  <style name="SpinnerItemNeWoThemeKitKat" parent="android:TextAppearance.Widget.TextView.SpinnerItem">
+      <item name="android:textColor">#000000</item>
+  </style>
+
+</resources>

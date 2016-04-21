@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Generated with http://android-holo-colors.com -->
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <style name="NeWoThemeKitKat" parent="@style/_NeWoThemeKitKat"/>
+
+  <style name="_NeWoThemeKitKat" parent="@android:style/Theme.Holo.Light.NoActionBar">
+
+    <item name="android:editTextBackground">@drawable/newothemekitkat_edit_text_holo_light</item>
+
+    <item name="android:textColorHighlight">#99ffffff</item>
+    <item name="android:textSelectHandleLeft">@drawable/newothemekitkat_text_select_handle_left</item>
+    <item name="android:textSelectHandleRight">@drawable/newothemekitkat_text_select_handle_right</item>
+    <item name="android:textSelectHandle">@drawable/newothemekitkat_text_select_handle_middle</item>
+
+    <item name="android:listChoiceIndicatorMultiple">@drawable/newothemekitkat_btn_check_holo_light</item>
+
+    <item name="android:buttonStyle">@style/ButtonNeWoThemeKitKat</item>
+
+    <item name="android:imageButtonStyle">@style/ImageButtonNeWoThemeKitKat</item>
+
+    <item name="android:progressBarStyleHorizontal">@style/ProgressBarNeWoThemeKitKat</item>
+
+    <item name="android:ratingBarStyleIndicator">@style/RatingBarBigNeWoThemeKitKat</item>
+
+    <item name="android:ratingBarStyleSmall">@style/RatingBarSmallNeWoThemeKitKat</item>
+
+    <item name="android:listChoiceBackgroundIndicator">@drawable/newothemekitkat_list_selector_holo_light</item>
+
+    <item name="android:activatedBackgroundIndicator">@drawable/newothemekitkat_activated_background_holo_light</item>
+
+  </style>
+
+</resources>

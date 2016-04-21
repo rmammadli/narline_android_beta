@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.newo.newoapp.narline"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="bottom"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="@color/transparent"
+        android:gravity="bottom"
+        android:orientation="vertical" >
+
+        <com.viewpagerindicator.CirclePageIndicator
+            android:id="@+id/indicatorPT"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/transparent"
+            android:padding="@dimen/margin_small"
+            app:centered="true"
+            app:fillColor="@color/white"
+            app:pageColor="@color/white_trans"
+            app:radius="@dimen/viewpager_indicator_radius"
+            app:strokeColor="@color/h_blue"
+            app:strokeWidth="@dimen/viewpager_indicator_stroke_width" />
+    </LinearLayout>
+
+    <View style="@style/ShadowHorizontalUpSmall" >
+    </View>
+
+</LinearLayout>

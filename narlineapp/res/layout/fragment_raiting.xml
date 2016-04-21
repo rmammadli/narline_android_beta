@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<uk.co.senab.actionbarpulltorefresh.library.PullToRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/pullRaitingFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:paddingLeft="@dimen/margin_small"
+    android:paddingRight="@dimen/margin_small"
+    android:paddingTop="@dimen/btnDimenBig" >
+
+    <!-- Listview to display raiting -->
+
+    <ListView
+        android:id="@+id/listRaiting"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/transparent"
+        android:choiceMode="singleChoice"
+        android:divider="@color/gray"
+        android:dividerHeight="1px"
+        android:listSelector="@drawable/newothemekitkat_list_selector_holo_light"
+        android:scrollbars="none" />
+
+</uk.co.senab.actionbarpulltorefresh.library.PullToRefreshLayout>

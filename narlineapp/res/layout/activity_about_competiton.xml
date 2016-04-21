@@ -1,0 +1,22 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:paddingLeft="@dimen/margin_small"
+    android:paddingRight="@dimen/margin_small"
+    android:paddingTop="@dimen/btnDimenBig"
+    tools:context=".AboutCompetitonActivity" >
+
+    <ListView
+        android:id="@+id/listAboutCompetition"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/transparent"
+        android:choiceMode="singleChoice"
+        android:divider="@color/gray"
+        android:dividerHeight="1px"
+        android:listSelector="@drawable/newothemekitkat_list_selector_holo_light"
+        android:scrollbars="none" />
+
+</RelativeLayout>

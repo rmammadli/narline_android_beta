@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <!-- Cameraview -->
+
+    <SurfaceView
+        android:id="@+id/cameraview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <!-- Cameraview  Frame -->
+
+    <ImageView
+        android:id="@+id/imageScanBack"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <!-- Tap Layout -->
+
+    <LinearLayout
+        android:id="@+id/llTapHandle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center" >
+
+        <!-- Tap Icon -->
+
+        <ImageView
+            android:id="@+id/imgTapHand"
+            android:layout_width="@dimen/social_icon_dimensions"
+            android:layout_height="@dimen/social_icon_dimensions" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txtTapToScan"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/btnDimenStandart"
+        android:layout_alignParentTop="true"
+        android:gravity="center_horizontal|bottom"
+        android:textColor="@color/white"
+        android:textSize="@dimen/TextSizeMedium" />
+
+    <ProgressBar
+        android:id="@+id/progress"
+        style="@android:attr/progressBarStyleLarge"
+        android:layout_width="@dimen/homePageIconsDimen"
+        android:layout_height="@dimen/homePageIconsDimen"
+        android:layout_centerInParent="true"
+        android:indeterminateDrawable="@drawable/progressbar" />
+
+    <TextView
+        android:id="@+id/tvScanPageProgress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textColor="@color/white"
+        android:textSize="@dimen/TextSizeLarge" />
+
+    <ImageButton
+        android:id="@+id/ibtnScanPageCancelScan"
+        android:layout_width="@dimen/btnDimenStandart"
+        android:layout_height="@dimen/btnDimenStandart"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_margin="@dimen/margin_small"
+        android:visibility="gone" />
+
+    <!-- Bottom slide menu -->
+
+    <SlidingDrawer
+        android:id="@+id/slidingDrawer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:content="@+id/llSlidingDrawerContent"
+        android:handle="@+id/imgbtnHandle"
+        android:topOffset="@dimen/slidingmenu_offset" >
+
+        <ImageButton
+            android:id="@+id/imgbtnHandle"
+            android:layout_width="@dimen/btn_slider_handle_indicator_width"
+            android:layout_height="@dimen/btn_slider_handle_indicator_height"
+            android:background="@color/transparent"
+            android:clickable="true" />
+
+        <LinearLayout
+            android:id="@+id/llSlidingDrawerContent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:alpha="@string/trans_alpha"
+            android:clickable="true"
+            android:orientation="vertical" >
+
+            <View style="@style/Bluline" />
+
+            <View style="@style/ShadowHorizontalSmall" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingLeft="@dimen/margin_small"
+                android:paddingRight="@dimen/margin_small" >
+
+                <RelativeLayout
+                    android:id="@+id/llScannerLight"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:id="@+id/txtScannerLight"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/btnDimenStandart"
+                        android:layout_alignParentLeft="true"
+                        android:gravity="center_vertical"
+                        android:text="@string/textScannerLight"
+                        android:textColor="@color/h_blue"
+                        android:textSize="@dimen/TextSizeLarge" />
+
+                    <CheckBox
+                        android:id="@+id/switchLight"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:button="@drawable/narmaniatheme_btn_check_holo_light"
+                        android:textColor="#00ffffff" />
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </SlidingDrawer>
+
+</RelativeLayout>

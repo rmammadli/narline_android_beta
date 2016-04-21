@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <!-- ViewPager -->
+
+    <com.newo.newoapp.helper.ViewPagerParallax
+        android:id="@+id/viewPager"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+    <!-- Footer -->
+
+    <include layout="@layout/layout_footer" />
+
+</FrameLayout>

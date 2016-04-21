@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_edit"
+        android:icon="@drawable/icon_menu_edit_white"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:title="@string/profile_actionmenu_edit"/>
+
+</menu>

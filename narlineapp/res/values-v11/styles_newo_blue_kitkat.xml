@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Generated with http://android-holo-colors.com -->
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <style name="AutoCompleteTextViewNeWo_Blue_KitKat" parent="android:Widget.Holo.Light.AutoCompleteTextView">
+      <item name="android:dropDownSelector">@drawable/newo_blue_kitkat_list_selector_holo_light</item>
+	    <item name="android:background">@drawable/newo_blue_kitkat_edit_text_holo_light</item>
+  </style>
+
+  <style name="ButtonNeWo_Blue_KitKat" parent="android:Widget.Holo.Light.Button">
+	  <item name="android:background">@drawable/newo_blue_kitkat_btn_default_holo_light</item>
+  </style>
+
+  <style name="ImageButtonNeWo_Blue_KitKat" parent="android:Widget.Holo.Light.ImageButton">
+	  <item name="android:background">@drawable/newo_blue_kitkat_btn_default_holo_light</item>
+  </style>
+
+  <style name="SpinnerNeWo_Blue_KitKat" parent="android:Widget.Holo.Light.Spinner">
+      <item name="android:background">@drawable/newo_blue_kitkat_spinner_background_holo_light</item>
+      <item name="android:dropDownSelector">@drawable/newo_blue_kitkat_list_selector_holo_light</item>
+  </style>
+
+  <style name="ProgressBarNeWo_Blue_KitKat" parent="android:Widget.Holo.Light.ProgressBar.Horizontal">
+      <item name="android:progressDrawable">@drawable/newo_blue_kitkat_progress_horizontal_holo_light</item>
+      <item name="android:indeterminateDrawable">@drawable/newo_blue_kitkat_progress_indeterminate_horizontal_holo_light</item>
+  </style>
+
+  <style name="SeekBarNeWo_Blue_KitKat" parent="android:Widget.Holo.Light.SeekBar">
+      <item name="android:progressDrawable">@drawable/newo_blue_kitkat_scrubber_progress_horizontal_holo_light</item>
+      <item name="android:indeterminateDrawable">@drawable/newo_blue_kitkat_scrubber_progress_horizontal_holo_light</item>
+      <item name="android:thumb">@drawable/newo_blue_kitkat_scrubber_control_selector_holo_light</item>
+  </style>
+
+  <style name="RatingBarNeWo_Blue_KitKat" parent="android:Widget.Holo.Light.RatingBar">
+      <item name="android:progressDrawable">@drawable/newo_blue_kitkat_ratingbar_full_holo_light</item>
+      <item name="android:indeterminateDrawable">@drawable/newo_blue_kitkat_ratingbar_full_holo_light</item>
+  </style>
+
+  <style name="RatingBarBigNeWo_Blue_KitKat" parent="android:Widget.Holo.Light.RatingBar.Indicator">
+      <item name="android:progressDrawable">@drawable/newo_blue_kitkat_ratingbar_holo_light</item>
+      <item name="android:indeterminateDrawable">@drawable/newo_blue_kitkat_ratingbar_holo_light</item>
+  </style>
+
+  <style name="RatingBarSmallNeWo_Blue_KitKat" parent="android:Widget.Holo.Light.RatingBar.Small">
+      <item name="android:progressDrawable">@drawable/newo_blue_kitkat_ratingbar_small_holo_light</item>
+      <item name="android:indeterminateDrawable">@drawable/newo_blue_kitkat_ratingbar_small_holo_light</item>
+  </style>
+
+  <style name="ToggleNeWo_Blue_KitKat" parent="android:Widget.Holo.Light.Button.Toggle">
+      <item name="android:background">@drawable/newo_blue_kitkat_btn_toggle_holo_light</item>
+  </style>
+
+</resources>
